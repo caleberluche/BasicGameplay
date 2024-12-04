@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 7262783442899460309}
   - component: {fileID: 3031403180792276312}
   - component: {fileID: 7262783443753818943}
+  - component: {fileID: 68479603}
+  - component: {fileID: 68479608}
   m_Layer: 0
   m_Name: Food_EnergyCan_01
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7262783442901728789}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.1, y: 0, z: 1.332}
   m_LocalScale: {x: 11, y: 11, z: 11}
   m_Children: []
@@ -109,3 +111,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &68479603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262783442901728789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbbf3739a044d9439a368d529370438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &68479608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7262783442901728789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbbf3739a044d9439a368d529370438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
